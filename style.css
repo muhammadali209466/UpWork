@@ -1,0 +1,559 @@
+.navigation {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px lightgray;
+  position: sticky;
+  background-color: whitesmoke;
+  top: 0;
+  z-index: 1;
+}
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+.navigation a:hover {
+  color: #14a600;
+}
+.navigation h4 {
+  font-weight: 900;
+  font-style: italic;
+  cursor: pointer;
+}
+.navigation input {
+  border: solid #e9e9e9 2px;
+  border-radius: 10px;
+  outline: none;
+  padding: 5px;
+}
+.navigation input:hover {
+  border: rgb(249, 247, 247) solid 2px;
+  background-color: lightgray;
+}
+.navigation select {
+  border-radius: 10px;
+  border: lightgray 2px solid;
+}
+.navigation p {
+  cursor: pointer;
+}
+.Jobs:hover {
+  background-color: #14a600 !important;
+}
+.Jobs {
+  padding: 7px !important;
+}
+.AI {
+  margin: 0 !important;
+  list-style-type: none;
+  position: sticky;
+  top: 40px;
+  z-index: 1;
+  background-color: whitesmoke;
+  border: lightgray solid 1px;
+}
+.AI a {
+  text-decoration: none;
+  color: #000;
+}
+.AI a:hover {
+  text-decoration: underline #14a600;
+  color: #14a600;
+}
+.AI select {
+  width: 80px;
+}
+.how {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 85% !important;
+}
+.should h1 {
+  font-size: 60px;
+}
+.should h3 {
+  color: #525050;
+}
+
+.upwork img {
+  width: 350px;
+  height: 300px;
+}
+.started:hover {
+  background-color: #14a600 !important;
+}
+.started {
+  width: 150px;
+}
+
+.microsoft img {
+  width: 40px;
+  height: 40px;
+}
+.airbnb img {
+  width: 40px;
+  height: 40px;
+}
+.airbnb h5 {
+  color: #f44336;
+  padding: 4px;
+}
+.microsoft h5 {
+  color: #525050;
+  padding: 4px;
+}
+.myslider {
+  width: 95%;
+}
+.carousel-item img {
+  width: 590px !important;
+  height: 480px;
+}
+.micro p {
+  padding-left: 40px;
+  padding-top: 10px;
+}
+.microsoft {
+  margin-left: 40px;
+}
+.mysliderbar {
+  flex: 1;
+}
+.game img {
+  width: 30px;
+  height: 30px;
+}
+.free:hover {
+  background-color: #14a600 !important;
+}
+.Learn {
+  color: #228b14 !important;
+  border: #228b14 solid 2px !important ;
+}
+.Learn:hover {
+  background-color: rgb(255, 245, 245) !important;
+}
+.instant {
+  width: 35%;
+  margin-top: 60px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(239, 241, 244);
+  border-radius: 18px;
+  line-height: 12px;
+}
+.hiring {
+  width: 40%;
+  background-color: #000;
+  border-radius: 18px;
+  padding: 10px;
+  margin-bottom: 60px;
+}
+.project {
+  margin-left: 20px !important;
+  background-color: whitesmoke !important;
+}
+.looking {
+  background-color: whitesmoke !important;
+  margin-left: 40px !important;
+}
+.project:hover {
+  background-color: yellow !important;
+}
+.looking:hover {
+  background-color: yellow !important;
+}
+.browse {
+  margin-left: 40px;
+}
+.browse a {
+  font-size: 20px;
+  color: #228b14;
+}
+.browse p {
+  font-size: 25px;
+  color: #525050;
+}
+.browse a:hover {
+  color: #14a600;
+}
+.take {
+  margin-left: 40px;
+}
+.carding {
+  width: 95%;
+  position: relative;
+  gap: 10px;
+}
+.category {
+  padding: 12px;
+  flex: 1;
+  height: 130px;
+  border-radius: 8px;
+  background-color: whitesmoke;
+}
+.today {
+  top: 50px;
+  position: absolute;
+  font-weight: 700;
+}
+.help {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-weight: 700;
+}
+.helps {
+  position: absolute;
+  top: 50px;
+  font-weight: 700;
+  left: 400px;
+}
+.helping {
+  position: absolute;
+  top: 50px;
+  font-weight: 700;
+  left: 700px;
+}
+.helped {
+  position: absolute;
+  top: 50px;
+  font-weight: 700;
+  left: 1000px;
+}
+.category:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.carded {
+  width: 95%;
+  position: relative;
+  gap: 10px;
+  margin-top: 40px;
+}
+.write {
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  font-weight: 700;
+}
+.todays {
+  top: 80px;
+  position: absolute;
+  font-weight: 700;
+}
+.wrote {
+  position: absolute;
+  top: 80px;
+  left: 400px;
+  font-weight: 700;
+}
+.written {
+  position: absolute;
+  top: 80px;
+  left: 700px;
+  font-weight: 700;
+}
+.writting {
+  position: absolute;
+  top: 80px;
+  left: 1000px;
+  font-weight: 700;
+}
+.wheel {
+  width: 90%;
+}
+.wrenching img {
+  width: 30px;
+  height: 30px;
+}
+.wheeling {
+  background-color: rgb(1, 55, 24);
+  color: whitesmoke;
+  flex: 1;
+  padding-left: 30px;
+}
+.good {
+  color: springgreen;
+}
+.chair {
+  flex: 1;
+}
+.chair img {
+  width: 550px;
+  height: 600px;
+}
+.Learning {
+  background-color: whitesmoke !important;
+  color: #14a600;
+}
+.Learning:hover {
+  background-color: whitesmoke !important;
+  color: #14a600 !important;
+}
+.icons img {
+  width: 20px;
+  height: 20px;
+}
+.quality {
+  width: 90%;
+  position: relative;
+}
+.why {
+  line-height: 30px;
+  flex: 2;
+  background-color: whitesmoke;
+  padding-left: 30px;
+}
+
+.onehand {
+  flex: 1;
+  background-color: #14a600;
+  border-radius: 8px;
+}
+.weare {
+  position: absolute;
+  color: #e9e9e9;
+  top: 200px;
+  right: 250px;
+}
+.theworld {
+  position: absolute;
+  color: #e9e9e9;
+  top: 250px;
+  right: 100px;
+}
+.marketplace {
+  position: absolute;
+  color: #e9e9e9;
+  top: 300px;
+  right: 160px;
+}
+.star {
+  position: absolute;
+  top: 370px;
+  right: 300px;
+  height: 24px;
+}
+.point {
+  position: absolute;
+  color: #e9e9e9;
+  top: 365px;
+  right: 200px;
+}
+.professional {
+  position: absolute;
+
+  color: #e9e9e9;
+  top: 400px;
+  right: 130px;
+}
+.recycle {
+  top: 470px;
+  right: 330px;
+  position: absolute;
+  width: 24px;
+}
+.Award {
+  position: absolute;
+  color: #e9e9e9;
+  top: 470px;
+  right: 130px;
+}
+.upworking {
+  position: absolute;
+  color: #e9e9e9;
+  top: 430px;
+  right: 265px;
+}
+.person {
+  position: absolute;
+  top: 40px;
+  right: 320px;
+}
+
+.find img {
+  width: 500px;
+  height: 600px;
+}
+.great {
+  width: 90%;
+  position: relative;
+}
+.Meet {
+  padding-left: 20px;
+  background-color: #1f57c3;
+  flex: 1;
+  color: whitesmoke;
+  line-height: 40px;
+}
+.Meet h1 {
+  font-size: 50px;
+}
+.opportunities {
+  bottom: 150px;
+  position: absolute;
+}
+.stage {
+  bottom: 120px;
+  position: absolute;
+}
+.freelance {
+  bottom: 90px;
+  position: absolute;
+}
+.career {
+  bottom: 65px;
+  position: absolute;
+}
+.Control {
+  position: absolute;
+  bottom: 150px;
+  right: 300px;
+}
+.whereandhow {
+  position: absolute;
+  bottom: 120px;
+  right: 290px;
+}
+.yourwork {
+  position: absolute;
+  bottom: 90px;
+  right: 335px;
+}
+.different {
+  position: absolute;
+  bottom: 150px;
+  right: 150px;
+}
+.waystolearn {
+  position: absolute;
+  bottom: 120px;
+  right: 170px;
+}
+.findopportunities {
+  position: absolute;
+  bottom: 20px;
+  border-radius: 12px;
+  color: #1f57c3 !important;
+  right: 430px;
+  background-color: whitesmoke !important;
+}
+.findopportunities:hover {
+  background-color: lightgray !important;
+}
+.startups h1 {
+  font-size: 50px;
+}
+.startups {
+  margin-left: 40px;
+}
+.Ukraine {
+  width: 90%;
+  background-color: whitesmoke;
+}
+.Ukraine img {
+  width: 100px;
+  height: 100px;
+}
+.Ukraine h3 {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.Learnmoreabout {
+  border: #228b14 solid 2px !important;
+  background-color: transparent;
+  color: #228b14 !important;
+  margin-left: 30px;
+}
+
+.python {
+  width: 90%;
+}
+.US h1 {
+  color: #14a600;
+  cursor: pointer;
+}
+
+.Trendingskills {
+  font-size: 34px;
+  text-decoration: none;
+  color: lightgray;
+}
+.TopskillsinUS {
+  font-size: 34px;
+  text-decoration: none;
+  color: lightgray;
+}
+.Catalog {
+  font-size: 34px;
+  text-decoration: none;
+  color: lightgray;
+}
+.Trendingskills:hover {
+  color: #14a600;
+}
+.TopskillsinUS:hover {
+  color: #14a600;
+}
+.Catalog:hover {
+  color: #14a600;
+}
+.Generative a {
+  color: #525050;
+  text-decoration: none;
+  font-size: 25px;
+}
+.Generative {
+  list-style-type: none;
+}
+.Generative a:hover {
+  color: #14a600;
+}
+.footing {
+  width: 90%;
+  background-color: #181818;
+}
+.agency {
+  line-height: 35px;
+}
+.agency p {
+  color: whitesmoke;
+}
+.agency a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.agency a:hover {
+  text-decoration: underline;
+}
+.agency li {
+  list-style-type: none;
+}
+.Followus {
+  width: 90%;
+  background-color: #181818;
+  color: whitesmoke;
+}
+.iconic {
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+.Followus a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.Global {
+  width: 90%;
+  background-color: #181818;
+  color: whitesmoke;
+}
+.Global a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.Global a:hover {
+  text-decoration: underline whitesmoke;
+}
